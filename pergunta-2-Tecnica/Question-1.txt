@@ -1,0 +1,10 @@
+1) Observe o trecho de código abaixo: int INDICE = 13, SOMA = 0, K = 0;
+   Enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; }
+   Imprimir(SOMA);
+   Ao final do processamento, qual será o valor da variável SOMA?
+
+Resposta: Enquanto K < INDICE o laço ocorre incrementando K em 1 (K = K + 1),
+e adiciona o valor de K a SOMA (SOMA = SOMA + K). Quando K = 13, o laço termina,
+pois K não será menor que INDICE no final da última iteração,
+e o valor final de SOMA ao final do processamento será 91.
+
