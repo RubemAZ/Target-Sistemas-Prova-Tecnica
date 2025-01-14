@@ -1,0 +1,12 @@
+.layout {
+  display: flex;
+}
+
+app-sidebar {
+  flex: 0 0 250px;
+}
+
+router-outlet {
+  flex: 1;
+  padding: 1rem;
+}
