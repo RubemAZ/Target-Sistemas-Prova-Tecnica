@@ -1,20 +1,28 @@
-<aside class="sidebar">
+<div class="sidebar">
   <button class="sidebar-button" (click)="showContent('question1')">
     Pergunta 1 - Redação
   </button>
   <div *ngIf="activeContent === 'question1'" class="content">
-    <h3>Enunciado:</h3>
+    <!-- Conteúdo da Pergunta 1 -->
+    <h3>Enunciado</h3>
     <p>
-      A pandemia acelerou a adesão do home office...
+      A pandemia acelerou a adesão do home office nas empresas e o final dela dividiu opiniões sobre voltar ao escritório e manter o novo modelo de trabalho.
+      Me conte um pouco sobre o que você pensa do home office e a autonomia envolvida neste formato de trabalho.
     </p>
-    <textarea readonly class="response">
-O modelo de trabalho home office oferece autonomia...
-    </textarea>
+    <p>
+      O modelo de trabalho home office oferece autonomia, o que tende a aumentar a produtividade e a qualidade de vida dos colaboradores que têm maior controle
+      sobre sua rotina, e podem eliminar o tempo de deslocamento.
+    </p>
   </div>
 
-  <button *ngFor="let question of questions"
-          class="sidebar-button"
-          (click)="navigateTo(question.route)">
-    {{ question.label }}
-  </button>
-</aside>
+  <h3>Teste Prático</h3>
+  <div class="questions-list">
+    <button
+      class="sidebar-button"
+      *ngFor="let question of questions"
+      (click)="navigateTo(question.route)"
+    >
+      {{ question.label }}
+    </button>
+  </div>
+</div>
