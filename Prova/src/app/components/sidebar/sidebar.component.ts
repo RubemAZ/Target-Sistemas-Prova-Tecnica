@@ -10,14 +10,15 @@ import { Router } from '@angular/router'; // Para navegação
   imports: [CommonModule],
 })
 export class SidebarComponent {
-  activeContent: string = ''; // Controla o conteúdo ativo
+  activeContent: string = ''
 
   questions = [
-    { label: 'Question 1', route: '/question1' },
-    { label: 'Question 2', route: '/question2' },
-    { label: 'Question 3', route: '/question3' },
-    { label: 'Question 4', route: '/question4' },
-    { label: 'Question 5', route: '/question5' },
+    { label: 'Redação', route: '/redaction' },
+    { label: 'Questão 1', route: '/question1' },
+    { label: 'Questão 2', route: '/question2' },
+    { label: 'Questão 3', route: '/question3' },
+    { label: 'Questão 4', route: '/question4' },
+    { label: 'Questão 5', route: '/question5' },
   ];
 
   constructor(private router: Router) {}
