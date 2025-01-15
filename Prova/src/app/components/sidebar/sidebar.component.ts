@@ -1,14 +1,19 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import { Router } from '@angular/router'; // Para navegação
 
 @Component({
   selector: 'app-sidebar',
+  standalone: true,
   templateUrl: './sidebar.component.html',
-  styleUrls: ['./sidebar.component.scss']
+  styleUrls: ['./sidebar.component.scss'],
+  imports: [CommonModule],
 })
 export class SidebarComponent {
-  activeContent: string | null = null;
+  activeContent: string = ''
+
   questions = [
+    { label: 'Redação', route: '/redaction' },
     { label: 'Questão 1', route: '/question1' },
     { label: 'Questão 2', route: '/question2' },
     { label: 'Questão 3', route: '/question3' },
@@ -18,11 +23,11 @@ export class SidebarComponent {
 
   constructor(private router: Router) {}
 
-  showContent(content: string) {
+  showContent(content: string): void {
     this.activeContent = content;
   }
 
-  navigateTo(route: string) {
+  navigateTo(route: string): void {
     this.router.navigate([route]);
   }
 }
