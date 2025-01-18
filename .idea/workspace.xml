@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6621a58d-876f-4727-9dc8-3c3bfa1fa5a7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Prova/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Prova/src/app/app.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prova/src/app/components/sidebar/sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Prova/src/app/components/sidebar/sidebar.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prova/src/app/components/sidebar/sidebar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Prova/src/app/components/sidebar/sidebar.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prova/src/app/pages/question1/question1.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Prova/src/app/pages/question1/question1.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prova/src/app/pages/question1/question1.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Prova/src/app/pages/question1/question1.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prova/src/app/pages/question2/question2.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Prova/src/app/pages/question2/question2.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prova/src/app/pages/question2/question2.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Prova/src/app/pages/question2/question2.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prova/src/app/pages/question3/question3.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Prova/src/app/pages/question3/question3.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prova/src/app/pages/question3/question3.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Prova/src/app/pages/question3/question3.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prova/src/app/pages/question4/question4.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Prova/src/app/pages/question4/question4.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prova/src/app/pages/question4/question4.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Prova/src/app/pages/question4/question4.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prova/src/app/pages/question5/question5.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Prova/src/app/pages/question5/question5.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prova/src/app/pages/question5/question5.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Prova/src/app/pages/question5/question5.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prova/src/main.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Prova/src/main.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,22 +23,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Rubem/OneDrive/Documentos/GitHub/Target-Sistemas-Prova-Tecnica&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Rubem\\OneDrive\\Documentos\\GitHub\\Target-Sistemas-Prova-Tecnica\\Prova\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "dev",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Rubem/OneDrive/Documentos/GitHub/Target-Sistemas-Prova-Tecnica",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\Rubem\\AppData\\Local\\JetBrains\\WebStorm 2024.3.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Rubem\OneDrive\Documentos\GitHub\Target-Sistemas-Prova-Tecnica\Prova\public" />
@@ -73,6 +60,9 @@
       <option name="presentableId" value="Default" />
       <updated>1736797967318</updated>
       <workItem from="1736797968854" duration="15142000" />
+      <workItem from="1736987377237" duration="1609000" />
+      <workItem from="1737074854674" duration="602000" />
+      <workItem from="1737215194174" duration="2170000" />
     </task>
     <servers />
   </component>
@@ -84,7 +74,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/Prova/src/app/app.config.server.ts</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
