@@ -7,7 +7,7 @@ import { Question5Component } from './pages/question5/question5.component'
 import {RedactionComponent} from './pages/redaction/redaction.component'
 
 export const routes: Routes = [
-  { path: '', redirectTo: 'question1', pathMatch: 'full' },
+  { path: '', redirectTo: 'redaction', pathMatch: 'full' },
   { path: 'redaction', component: RedactionComponent },
   { path: 'question1', component: Question1Component },
   { path: 'question2', component: Question2Component },
