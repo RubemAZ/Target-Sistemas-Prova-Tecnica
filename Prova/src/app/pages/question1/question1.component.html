@@ -1,19 +1,16 @@
-<div class="question">
-  <h2>Questão 1</h2>
-  <p>
-    Observe o trecho de código abaixo:
-  </p>
-  <pre>
-    int INDICE = 13, SOMA = 0, K = 0;
-    Enquanto K &lt; INDICE faça &#123;
-        K = K + 1;
-        SOMA = SOMA + K;
-    &#125;
-    Imprimir(SOMA);
-  </pre>
-
-  <strong>Ao final do processamento, qual será o valor da variável SOMA?</strong>
-
-  <h2>Resposta 1:</h2>
-
+<div class="card">
+  <div class="card-header">
+    <h3>Questão 1</h3>
+  </div>
+  <div class="card-body">
+    <p>Considere o seguinte código:</p>
+    <pre><code>
+        let soma = 0;
+        for (let i = 1; i <= 13; i++) &#123;
+              soma += i;
+        &#125;
+    </code></pre>
+    <p>Ao final do processamento, qual será o valor da variável <strong>SOMA</strong>?</p>
+    <button (click)="executeLogic()" class="btn btn-primary">Executar/Run</button>
+  </div>
 </div>
