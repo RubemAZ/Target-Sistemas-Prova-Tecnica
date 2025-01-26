@@ -5,5 +5,17 @@
     (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa onde, informado um número, ele calcule a sequência de
     Fibonacci e retorne uma mensagem avisando se o número informado pertence ou não à sequência.
   </p>
-  <textarea rows="5" placeholder="Digite sua resposta aqui..."></textarea>
+
+  <!-- Input para o número -->
+  <input
+    type="number"
+    [(ngModel)]="numberToCheck"
+    placeholder="Digite um número"
+    class="input-number"
+  />
+
+  <!-- Botão para executar a verificação -->
+  <button (click)="checkFibonacci()" class="btn-check">
+    Executar
+  </button>
 </div>

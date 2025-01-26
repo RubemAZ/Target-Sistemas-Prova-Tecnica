@@ -8,5 +8,26 @@
     <li>O maior valor de faturamento ocorrido em um dia do mês;</li>
     <li>Número de dias no mês em que o valor de faturamento diário foi superior à média mensal.</li>
   </ul>
-  <textarea rows="5" placeholder="Digite sua resposta aqui..."></textarea>
+
+  <!-- Botões para executar os cálculos -->
+  <div class="actions">
+    <button (click)="calcularMenorMaior()" class="btn-action">Calcular Menor e Maior Faturamento</button>
+    <button (click)="calcularDiasAcimaDaMedia()" class="btn-action">Calcular Dias Acima da Média</button>
+  </div>
+
+  <!-- Tabela de Faturamento Diário -->
+  <table class="faturamento-table">
+    <thead>
+    <tr>
+      <th>Dia</th>
+      <th>Valor</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let item of dados">
+      <td>{{ item.dia }}</td>
+      <td>{{ item.valor | currency: 'BRL' }}</td>
+    </tr>
+    </tbody>
+  </table>
 </div>
