@@ -1,7 +1,7 @@
 # Target-Sistemas-Prova-Técnica
-Qualificação de candidato Desenvolvedor Front-end - Target Sistemas
-
-Desenvolvedor Front-end
+### Qualificação de candidato Desenvolvedor Front-end - Target Sistemas
+### As duas partes da prova (Redação e técnica) estão implantadas aqui: 
+https://target-challenge-ajknwi7bn-rubemazs-projects.vercel.app/
 
 Pergunta 1 de 2
 Redação:
