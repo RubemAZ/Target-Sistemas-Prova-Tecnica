@@ -24,10 +24,12 @@
     </tr>
     </thead>
     <tbody>
-    <tr *ngFor="let item of dados">
-      <td>{{ item.dia }}</td>
-      <td>{{ item.valor | currency: 'BRL' }}</td>
-    </tr>
+      @for (item of dados; track item.dia) {
+        <tr>
+          <td>{{ item.dia }}</td>
+          <td>{{ item.valor }}</td>
+        </tr>
+      }
     </tbody>
   </table>
 </div>
