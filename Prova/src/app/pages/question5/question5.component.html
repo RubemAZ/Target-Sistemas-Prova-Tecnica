@@ -8,5 +8,15 @@
     <li>Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código.</li>
     <li>Evite usar funções prontas, como, por exemplo, reverse.</li>
   </ul>
-  <textarea rows="5" placeholder="Digite sua resposta aqui..."></textarea>
+
+  <!-- Card com input e botão -->
+  <div class="string-inverter">
+    <input
+      type="text"
+      [(ngModel)]="texto"
+      placeholder="Digite uma string"
+      class="input-string"
+    />
+    <button (click)="inverterString()" class="btn-inverter">Inverter</button>
+  </div>
 </div>
