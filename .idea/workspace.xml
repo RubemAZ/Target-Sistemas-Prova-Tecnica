@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6621a58d-876f-4727-9dc8-3c3bfa1fa5a7" name="Changes" comment="" />
+    <list default="true" id="6621a58d-876f-4727-9dc8-3c3bfa1fa5a7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prova/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Prova/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prova/src/app/pages/question1/question1.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Prova/src/app/pages/question1/question1.component.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +65,11 @@
       <workItem from="1736987377237" duration="1609000" />
       <workItem from="1737074854674" duration="602000" />
       <workItem from="1737215194174" duration="2925000" />
-      <workItem from="1737338072105" duration="1377000" />
+      <workItem from="1737338072105" duration="2520000" />
+      <workItem from="1737366290772" duration="86000" />
+      <workItem from="1737409948471" duration="163000" />
+      <workItem from="1737874194990" duration="1030000" />
+      <workItem from="1737875570003" duration="4000" />
     </task>
     <servers />
   </component>
