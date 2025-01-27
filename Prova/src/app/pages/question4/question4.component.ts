@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import Swal from 'sweetalert2';
-import {NgForOf} from '@angular/common';
 
 interface FaturamentoEstado {
   estado: string;
@@ -13,7 +12,7 @@ interface FaturamentoEstado {
   templateUrl: './question4.component.html',
   styleUrls: ['./question4.component.scss'],
   imports: [
-    NgForOf
+
   ]
 })
 export class Question4Component {
