@@ -11,5 +11,23 @@ ES – R$27.165,48
 Outros – R$19.849,53
   </pre>
   <p>Escreva um programa que calcule o percentual de representação de cada estado no valor total mensal.</p>
-  <textarea rows="5" placeholder="Digite sua resposta aqui..."></textarea>
+  <table class="faturamento-table">
+    <thead>
+    <tr>
+      <th>Estado</th>
+      <th>Faturamento (R$)</th>
+      <th>Ações</th>
+    </tr>
+    </thead>
+
+    <tbody>
+      @for (item of dados; track item.estado) {
+        <tr>
+          <td>{{ item.estado }}</td>
+          <td>{{ item.valor}}</td>
+          <button (click)="mostrarDetalhes(item)" class="btn-detalhes">Detalhes</button>
+        </tr>
+      }
+    </tbody>
+  </table>
 </div>

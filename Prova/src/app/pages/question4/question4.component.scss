@@ -1,10 +1,38 @@
 .question {
-  padding: 1rem;
-  line-height: 1.6;
+  text-align: center;
+  padding: 20px;
 
-  textarea {
-    width: 100%;
-    margin-top: 1rem;
-    resize: none;
+  .faturamento-table {
+    margin: 20px auto;
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+
+    th,
+    td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f4f4f4;
+      font-weight: bold;
+    }
+
+    .btn-detalhes {
+      padding: 8px 12px;
+      font-size: 14px;
+      color: #fff;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
   }
 }
