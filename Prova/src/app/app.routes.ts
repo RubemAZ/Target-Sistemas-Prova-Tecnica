@@ -5,7 +5,6 @@ import { Question3Component } from './pages/question3/question3.component'
 import { Question4Component } from './pages/question4/question4.component'
 import { Question5Component } from './pages/question5/question5.component'
 import {RedactionComponent} from './pages/redaction/redaction.component'
-import { DedicationComponent } from './pages/dedication/dedication.component'
 
 export const routes: Routes = [
   { path: '', redirectTo: 'redaction', pathMatch: 'full' },
@@ -15,6 +14,5 @@ export const routes: Routes = [
   { path: 'question3', component: Question3Component },
   { path: 'question4', component: Question4Component },
   { path: 'question5', component: Question5Component },
-  { path: 'dedication', component: DedicationComponent },
   { path: '**', redirectTo: 'redaction' },
 ];

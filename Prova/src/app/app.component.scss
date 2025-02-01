@@ -10,3 +10,12 @@ router-outlet {
   flex: 1;
   padding: 1rem;
 }
+.main-container {
+  height: 100vh;
+}
+
+.content {
+  padding: 20px;
+  margin-left: auto;
+  max-width: 900px;
+}
