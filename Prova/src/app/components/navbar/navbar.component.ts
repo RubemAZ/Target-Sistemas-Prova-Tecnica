@@ -10,8 +10,11 @@ import {NgOptimizedImage} from '@angular/common';
     NgOptimizedImage
   ],
   templateUrl: './navbar.component.html',
+  standalone: true,
   styleUrl: './navbar.component.scss'
 })
 export class NavbarComponent {
-
+  toggleTheme() {
+    document.body.classList.toggle('dark-mode');
+  }
 }

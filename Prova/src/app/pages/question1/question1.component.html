@@ -14,3 +14,13 @@
     <button (click)="executeLogic()" class="btn btn-primary">Executar/Run</button>
   </div>
 </div>
+
+<mat-card>
+  <mat-card-content>
+    <p>Aqui vai a resposta da questão.</p>
+    <button mat-button (click)="toggleViewCode()">Ver Código</button>
+    <div *ngIf="showCode">
+      <pre>{{ code }}</pre>
+    </div>
+  </mat-card-content>
+</mat-card>

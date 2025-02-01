@@ -18,8 +18,7 @@ export class SidebarComponent {
     { label: 'Questão 2', route: '/question2' },
     { label: 'Questão 3', route: '/question3' },
     { label: 'Questão 4', route: '/question4' },
-    { label: 'Questão 5', route: '/question5' },
-    { label: 'Dedicatória', route: '/dedication' },
+    { label: 'Questão 5', route: '/question5' }
   ];
 
   constructor(private router: Router) {}
